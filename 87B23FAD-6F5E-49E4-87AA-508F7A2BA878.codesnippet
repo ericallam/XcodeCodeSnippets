@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#class to swizzle#&gt; (SwizzlingMethods)
+&lt;#custom method interface#&gt;
+@end
+
+@implementation &lt;#class to swizzle#&gt; (SwizzlingMethods)
+&lt;#custom method interface#&gt;
+{
+    &lt;#custom implementation#&gt;
+    
+    // send custom message to self
+    // and return if this method has a return
+    // value
+}
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>87B23FAD-6F5E-49E4-87AA-508F7A2BA878</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Adding a custom method on a class for swizzling</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swizzle Category</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

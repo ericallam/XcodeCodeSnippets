@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swi</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [CSSwizzler swizzleClassOfInstance:&lt;#instance#&gt;
+                      replaceMethod:@selector(&lt;#original#&gt;)
+                         withMethod:@selector(&lt;#replacement#&gt;)];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A2DA0ADE-C3ED-4F62-BA2E-5ECFB2CE37B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Use this for swizzling NSString or NSArray methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swizzle Method for Class Clusters</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
